@@ -1,26 +1,25 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import "../Nav/nav.css"
 function Nav() {
     return (
     <>
     <header className='nav'>
         <div className="nav-logo">
-            <Link to="/">LOGO</Link>
+            <a href='/'>LOGO</a>
         </div>
         <div className="nav-enlaces">
             <ul>
-                <Link to={"/category/ropa"}>Ropa</Link>
+                <a href='/'>Ropa</a>
             </ul>
             <ul>
-                <Link to={"/category/zapatillas"}>Zapatillas</Link>
+                <a href='/'>Zapatillas</a>
             </ul>
             <ul>
-                <Link to={"/category/pelotas"}>Pelotas</Link>
+                <a href='/'>Pelotas</a>
             </ul>
         </div>
         <div className="nav-carrito"> 
-            <Link to="/">🛒</Link> 
+            <a to="/">🛒</a> 
         </div>
     </header>
     </>
